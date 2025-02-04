@@ -1,0 +1,27 @@
+{
+    "principal": {
+        "direccion": "Av. España 240, Centro Histórico, Trujillo",
+        "email": "ventas@postesdelnortesa.com",
+        "telefono": "044-243258 / 949 699 555"
+    },
+    "milagro": {
+        "direccion": "Jr. Dean Saavedra Mz. 58 Lt. 2, El",
+        "email": "Milagro, sector 3, Trujillo",
+        "telefono": "908 906 203"
+    },
+    "piura": {
+        "direccion": "Lote 1 Predio Mundaca km 6.5 <br>Carretera Piura – Catacaos, Piura",
+        "email": "plantapiura@postesdelnortesa.com",
+        "telefono": "957 568 030"
+    },
+    "cajamarca": {
+        "direccion": "Carretera Cajamarca – Jesús. <br>Por el desvío Huacariz, San Antonio",
+        "email": "plantacajamarca@postesdelnortesa.com",
+        "telefono": "+741 852 9630"
+    },
+    "lima": {
+        "direccion": "Av. Arnaldo Marquez 963. Jesús María, Lima",
+        "email": "ventaslima@postesdelnortesa.com",
+        "telefono": "953 804 761"
+    }
+}
