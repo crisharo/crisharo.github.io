@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postes del Norte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<div class="web">
+    <!-- Header -->
+     <div id="top"></div>
+    <div class="background sticky">
+        <div class="menu__wrapper">
+            <div class="menu__bar">
+                <div class="logo">
+                    <a href="/" title="Logo" class="logo">
+                        <img src="assets/logo.png" alt="Logo" title="Logo">
+                    </a>
+                </div>
+                <img class="menu-icon" src="assets/burger-menu.svg" title='Burger Menu' alt='Burger Menu'
+                    onclick="toggleMenu(this)">
+                <ul class="navigation">
+                    <li>
+                        <a href="#top" title="Inicio">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#productos" title="Productos Postes del Norte">
+                            Productos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#nosotros" title="Acerca de Postes del Norte">
+                            Nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#plantas" title="Plantas de Postes del Norte">
+                            Plantas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacto" title="Contacto">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Contenido -->
+    <div class="content">
+
+        <!-- Featured -->
+        <div class="featured">
+            <div class="title w700 texto-animado">
+                <span>Más de 22 años fabricando POSTES Y ACCESORIOS DE CONCRETO DE CALIDAD CERTIFICADA</span>
+                <a href="#productos"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            
+        </div>
+
+        <!-- Primera lista de Productos -->
+        <div id="productos">
+            <div class="w700">
+                <div class="title-amarillo">
+                    <h2>Nuestros<br>Productos</h2>
+                    <span class="bar"></span>
+                </div>
+                <div class="grid-3">
+                    <div class="box bg-gray">
+                        <div class="head">
+                            <div class="bg" style="background-image: url(assets/productos_1.webp)"></div>
+                        </div>
+                        <div class="content">
+                            <div class="title">Postes de concreto centrifugado</div>
+                            Fabricamos postes de concreto centrifugado diseñados para ofrecer máxima resistencia, durabilidad y seguridad. Gracias a su proceso de fabricación especializado, nuestros postes garantizan un desempeño óptimo en redes eléctricas, telecomunicaciones y alumbrado público.
+                            <span class="bold">Calidad certificada, innovación y confiabilidad en cada proyecto.</span>
+                        </div>
+                    </div>
+                    <div class="box bg-gray">
+                        <div class="head">
+                            <div class="bg" style="background-image: url(assets/productos_2.webp)"></div>
+                        </div>
+                        <div class="content">
+                            <div class="title">Postes de concreto seccionados</div>
+                            Ofrecemos postes de concreto seccionados, ideales para proyectos que requieren transporte y montaje más eficientes. Su diseño modular asegura resistencia, durabilidad y fácil instalación, cumpliendo con los más altos estándares de calidad y su facil traslado permite llegar a lugares de dificil acceso. 
+                            <span class="bold">Soluciones prácticas y confiables para tus proyectos de infraestructura.</span>
+                        </div>
+                    </div>
+                    <div class="box bg-gray">
+                        <div class="head">
+                            <div class="bg" style="background-image: url(assets/productos_1.webp)"></div>
+                        </div>
+                        <div class="content">
+                            <div class="title">Accesorios de concreto vibrado</div>
+                            Fabricamos accesorios de concreto de alta calidad, diseñados para complementar tus proyectos de infraestructura con durabilidad, resistencia y precisión. Desde bases hasta soportes, nuestros productos están hechos para garantizar la seguridad y eficiencia en cada instalación.
+                            <span class="bold">Calidad que asegura confianza en cada detalle.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub">
+                    <h3>Principales accesorios de concreto</h3>
+                    <span class="text">
+                        La elaboración de nuestros productos es guiada bajo estándares de calidad y siguiendo las normas técnicas vigentes. Fabricamos diferentes tipos de accesorios de concreto de acuerdo a las necesidades que demanden nuestros clientes y con la mejor calidad que el mercado pueda ofrecer.
+                    </span>
+                </div>
+            </div>
+            <div class="galeria-1 bg-gray">
+                <div class="grid-4 w1000">
+                    <div>
+                        <div class="preview">IMG</div>
+                        <div class="title">Murete contra impacto</div>
+                    </div>
+                    <div>
+                        <div class="preview">IMG</div>
+                        <div class="title">Ductos</div>
+                    </div>    
+                    <div>
+                        <div class="preview">IMG</div>
+                        <div class="title">Cruceta simétrica</div>
+                    </div>    
+                    <div>
+                        <div class="preview">IMG</div>
+                        <div class="title">Ménsulas</div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección Nosotros -->
+        <div id="nosotros">
+            <div class="h2">Sobre Nosotros</div>
+            <div class="resume">
+                <p>Postes del Norte es una empresa dedicada a fabricar y comercializar postes y accesorios de concreto de CALIDAD CERTIFICADA a un precio competitivo, nuestra cultura es la responsabilidad en el estricto cumplimiento de las Normas Técnicas  (INDECOPI, NTP 339.027 y DGE 015-PD-1 del MEM/DEP), se utiliza insumos de primera clase para obtener resistencia y durabilidad en el producto final. Contribuyendo de esta manera al desarrollo sostenible del país.</p>
+
+                <p>Por otro lado, en medio de un mercado informal, nuestra ventaja es la formalidad, Contamos con certificación ISO 9001:2015 de calidad, tenemos personal calificado y cinco fábricas ubicadas en diversas ciudades del país, equipadas con moderna tecnología, laboratorios propios y servicio de asesoramiento en todas las etapas de venta.</p>
+            </div>
+        </div>
+
+        <!-- Lista amarillo -->
+        <div class="widget">
+            <div>
+                <div class="item">
+                    <span>2003</span>
+                    <span>Año de inicio de operaciones en Trujillo, Perú</span>
+                </div>
+                <div class="item">
+                    <span>PdN</span>
+                    <span>Rótulo en todos nuestros productos </span>
+                </div>
+                <div class="item">
+                    <span>NTP</span>
+                    <span>NTP 339 027 cumplimos las normativas</span>
+                </div>
+                <div class="item">
+                    <span>ISO</span>
+                    <span>Certificación de calidad ISO 9001:2015</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Misión -->
+        <div class="widget">
+            <h2>Misión</h2>
+            <div class="resume">
+                Satisfacer las necesidades de nuestros clientes con productos de calidad, elaborados por personal calificado bajo estándares de seguridad en estricto cumplimiento de la normativa vigente.
+            </div>
+        </div>
+
+        <!-- Visión -->
+        <div class="widget">
+            <h2>Visión</h2>
+            <div class="resume">
+                Hacia el año 2026 mantenernos como una empresa sólida en la zona norte del país; destacando por el volumen constante de nuestras ventas, el enfoque en la calidad del producto, gestión del talento humano, respeto por el medio ambiente y responsabilidad social.
+            </div>
+        </div>
+
+        <!-- Valores -->
+        <div class="widget">
+            <h2>Valores organizacionales</h2>
+            <div class="span">Somos una empresa comprometida con brindar productos y servicio de calidad, por ello tenemos valores que guian nuestro trabajo y son parte importante de nuestra identidad.</div>
+        </div>
+
+        <!-- Valores -->
+        <div class="widget">
+            <div class="galeria-2">
+                <div>
+                    <div class="preview">IMG</div>
+                    <div class="title">Trabajo en equipo</div>
+                </div>
+                <div>
+                    <div class="preview">IMG</div>
+                    <div class="title">Compromiso</div>
+                </div>    
+                <div>
+                    <div class="preview">IMG</div>
+                    <div class="title">Integridad</div>
+                </div>    
+                <div>
+                    <div class="preview">IMG</div>
+                    <div class="title">Servicio</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Politica de Calidad -->
+        <div class="widget">
+            <div class="politica">
+                <h2>Política de Calidad</h2>
+                <div class="resume">
+                    <span>Postes del Norte S.A. es una empresa dedicada a la fabricación de Postes de Concreto armado centrifugado para líneas aéreas y subterráneas de uso eléctrico, telefonía y tendido de fibra óptica, por lo cual se compromete a:</span>
+                    <ul>
+                        <li>
+                            Cumplir con los requisitos de la NTP 339.027, los requisitos legales aplicables, los de la Norma ISO 9001, los expresados por los clientes y partes interesadas y aquellos establecidos por la propia empresa.
+                        </li>
+                        <li>
+                            Mejorar continuamente nuestro SGC.
+                        </li>
+                        <li>
+                            Contar con colaboradores capacitados, comprometidos y sensibilizados en la necesidad de cuidar y asegurar los estándares de calidad de los productos elaborados.
+                        </li>
+                    </ul>
+                    <span>
+                        La presente Política servirá de guía para el apoyo en el cumplimiento de nuestros objetivos estratégicos y de la calidad.
+                    </span>
+                    <span>       
+                        Felipe Pérez Díaz
+                        Gerente General
+                        Postes del Norte
+                    </span>
+                    <span>
+                        “De requerir, alguna parte interesada, el alcance del SGC, favor solicitarlo al correo ventas@postesdelnortesa.com"
+                    </span>
+                    <span>
+                        <a href="boton amarillo">Ver original</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nuestra Historia -->
+        <div class="widget">
+            <div class="box-2">
+                <div class="content">
+                    <h2>Nuestra Historia</h2>
+                    <span class="sub">
+                        Experiencia y compromiso con la calidad
+                    </span>
+                    <span>
+                        Con la experiencia ganada en PREMOL, iniciamos operaciones el año 2003 en el Parque Industrial. Luego en el año 2006 expandimos nuestro trabajo a Cajamarca, tiempo después gracias al esfuerzo permanente en brindar productos buenos y el suficiente stock llegamos al Centro Poblado El Milagro. Con la misma dirección de la dedicación y esfuerzo para ofrecer productos de calidad, ampliamos nuestro trabajo en El Milagro, adoptando a este Centro Poblado con mucha consideración y respeto. El trabajo realizado se extendió, y ello nos condujo a Piura, a donde llegamos con gran expectativa.
+                    </span>
+                    <span>
+                        El trabajo de calidad demostrado a lo largo de los años nos respalda, nuestra primera obra realizada fue a la Municipalidad de Guadalupito y posteriormente se realizó trabajos con Telefónica del Perú (actualmente Movistar). Desde el primer trabajo que se realizó, el compromiso ha sido el mismo y ha ido mejorando en función de los nuevos retos y las nuevas oportunidades de desarrollo para la sociedad.
+                    </span>
+                    <span>
+                        Actualmente con muchos años de experiencia  nos guiamos por fuertes pilares que nuestra historia respaldan, el trabajo de calidad y la atención con calidez han sido siempre importantes, así como el cuidado del ambiente y la responsabilidad social, lo cual nos pone a la vanguardia como una organización comprometida no sólo con sus clientes, sino con sus trabajadores y la comunidad.
+                    </span>
+                </div>
+                <div class="preview">
+                    Imagen
+                </div>
+            </div>
+        </div>
+
+        <!-- Nuestras Plantas -->
+        <div class="widget">
+        <h2 class="amarillo">NUESTRAS PLANTAS</h2>
+        <div class="grid-4 galeria-lightbox">
+            <div>
+                <div class="preview">
+                    <img src="" alt="">
+                </div>
+                <div class="title">
+                    Planta Milagro 1
+                </div>
+            </div>
+            <div>
+                <div class="preview">
+                    <img src="" alt="">
+                </div>
+                <div class="title">
+                    Planta Milagro 2
+                </div>
+            </div>
+            <div>
+                <div class="preview">
+                    <img src="" alt="">
+                </div>
+                <div class="title">
+                    Planta Piura
+                </div>
+            </div>
+            <div>
+                <div class="preview">
+                    <img src="" alt="">
+                </div>
+                <div class="title">
+                    Planta Cajamarca
+                </div>
+            </div>
+        </div>
+        </div>
+
+         <!-- Contacto -->
+        <div id="contacto">
+            <h2 class="amarillo">Contacto</h2>
+            <div class="span">Maps</div>
+            <div class="grid-4">
+                <div class="preguntas">
+                    <span>
+                        Para consultas, dudas o cotizaciones, no dudes en contactarnos al: 044-243258 / 949 699 555 o completar el formulario a continuación.
+                    </span>
+                </div>
+
+                <div class="oficinas-container"></div>
+
+                <div class="libros">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        Footer
+    </div>
+</div>
+</body>
+</html>
