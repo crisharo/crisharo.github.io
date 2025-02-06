@@ -703,6 +703,7 @@ img {width: 100%;height: auto;}
     }
     .menu-icon {
         display: block;
+        margin-right: 10px;
     }
     .navigation--mobile {
         top: var(--navbar-height);
