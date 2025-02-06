@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 oficinaDiv.classList.add("oficina");
 
                 oficinaDiv.innerHTML = `
-                    <h2>${lugar.charAt(0).toUpperCase() + lugar.slice(1)}</h2>
+                    <div class="sede">${lugar.charAt(0).toUpperCase() + lugar.slice(1)}</div>
                     <div class="oficinas-direccion"> ${oficina.direccion}</div>
                     <div class="oficinas-email"> ${oficina.email}</div>
                     <div class="oficinas-telefono"><strong>Teléfono:</strong> ${oficina.telefono}</div>
