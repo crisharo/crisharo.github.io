@@ -1,37 +1,26 @@
-let slideIndex = 1;
-
 document.addEventListener("DOMContentLoaded", function() {
-    showSlides(slideIndex); // Muestra la primera imagen al cargar la página
+    const galleries = document.querySelectorAll(".slideshow-container");
+    galleries.forEach(gallery => {
+        const id = gallery.id;
+        slideIndices[id] = 1;
+        showSlides(1, id);
+    });
 });
 
-// Controles de siguiente/anterior
-function plusSlides(n) {
-    showSlides(slideIndex += n);
+let slideIndices = {};
+
+function plusSlides(n, galleryId) {
+    showSlides(slideIndices[galleryId] += n, galleryId);
 }
 
-// Control de los dots
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+function showSlides(n, galleryId) {
+    let gallery = document.getElementById(galleryId);
+    let slides = gallery.getElementsByClassName("mySlides");
 
-function showSlides(n) {
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) slideIndices[galleryId] = 1;
+    if (n < 1) slideIndices[galleryId] = slides.length;
 
-    if (n > slides.length) { slideIndex = 1; }
-    if (n < 1) { slideIndex = slides.length; }
+    for (let slide of slides) slide.style.display = "none";
 
-    // Oculta todas las diapositivas
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-
-    // Elimina la clase "active" de los dots
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-
-    // Muestra la imagen correcta y marca el dot activo
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    slides[slideIndices[galleryId] - 1].style.display = "block";
 }
