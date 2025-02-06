@@ -9,7 +9,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/scroll-entrance.js"></script>
     <script src="js/galeria.js"></script>
+    <style>
+        /* Ensure elements are hidden while ScrollEntrance is loading */
+        [data-entrance] { visibility: hidden; }
+  </style>
 </head>
 <body>
 <div class="web">
@@ -70,7 +75,7 @@
 
         <!-- Primera lista de Productos -->
         <div id="productos">
-            <div class="w700">
+            <div class="w700" data-entrance="from-bottom">
                 <div class="title-amarillo">
                     <h2>Nuestros<br>Productos</h2>
                     <span class="bar"></span>
@@ -179,7 +184,7 @@
         <!-- Misión -->
          <div id="mision">
             <div class="bg-gray">
-                <div class="w1000 mision-flex">
+                <div class="w1000 mision-flex" data-entrance="from-bottom">
 
                     <div class="item">
                         <div class="head">
@@ -214,7 +219,7 @@
         
         <!-- Valores -->
         <div class="widget w700">
-            <div id="productos">
+            <div id="productos" data-entrance="fade">
                 <div class="sub">
                     <h3>Valores organizacionales</h3>
                     <span class="text">
@@ -248,7 +253,7 @@
 
         <!-- Politica de Calidad -->
         <div id="calidad">
-            <div class="politica">
+            <div class="politica" data-entrance="fade">
                 <div class="title">Política de Calidad</div>
                 <div class="resume">
                     <span>Postes del Norte S.A. es una empresa dedicada a la fabricación de Postes de Concreto armado centrifugado para líneas aéreas y subterráneas de uso eléctrico, telefonía y tendido de fibra óptica, por lo cual se compromete a:</span>
@@ -311,7 +316,7 @@
         </div>
 
         <!-- Nuestras Plantas -->
-        <div id="plantas">
+        <div id="plantas" data-entrance="from-bottom">
             <div class="title-amarillo">
                 <h2>Nuestras<br>Plantas</h2>
                 <span class="bar"></span>
