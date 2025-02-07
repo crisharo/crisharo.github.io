@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Postes del Norte</title>
+    <meta name="description" content="Postes del Norte es una empresa dedicada a fabricar y comercializar postes y accesorios de concreto de buena calidad a un precio competitivo."/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/wsp.js"></script>
     <script src="js/scroll-entrance.js"></script>
     <script src="js/galeria.js"></script>
     <style>
@@ -403,6 +405,7 @@
 
                 <div class="contacto">
                     <div class="preguntas">
+                        <span class="title">¿Preguntas?</span>
                         <span>
                             Para consultas, dudas o cotizaciones, no dudes en contactarnos al: 044-243258 / 949 699 555 o completar el formulario a continuación.
                         </span>
@@ -432,5 +435,29 @@
         
     </div>
 </div>
+
+<div>
+    <!-- Botón flotante -->
+<div id="chat-button" class="chat-floating">
+    <i class="fa-solid fa-comment-dots"></i>
+</div>
+
+<!-- Ventana emergente -->
+<div id="chat-popup" class="chat-popup">
+    <div class="chat-header">
+        <span>Postes del Norte</span>
+        <button id="close-popup" class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="chat-content">
+        <p>Estamos disponibles en WhatsApp de lunes a viernes, de 09:00 a 18:00, y los sábados de 09:00 a 14:00. No dudes en contactarnos.</p>
+        <a href="https://web.whatsapp.com/send?phone=51949699555" target="_blank" class="whatsapp-button">
+            <i class="fa-brands fa-whatsapp"></i> Abrir WhatsApp
+        </a>
+    </div>
+</div>
+</div>
+
 </body>
 </html>
